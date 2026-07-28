@@ -7,139 +7,138 @@
 
 <style>
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
 }
 
 body{
-background:#06142b;
-color:white;
-text-align:center;
+    background:#06142b;
+    color:white;
+    text-align:center;
 }
 
 header{
-padding:25px;
-background:#0d2348;
-box-shadow:0 0 20px #00bfff;
+    background:#0d2348;
+    padding:20px;
+    box-shadow:0 0 15px #00bfff;
 }
 
-h1{
-..logo{
-    width:120px;
+.logo{
+    width:170px;
     height:auto;
     display:block;
     margin:0 auto 15px;
 }
-    
 
-.hero{
-padding:80px 20px;
+h1{
+    font-size:38px;
+    color:#00bfff;
 }
 
-.hero h2{
-font-size:32px;
-margin-bottom:20px;
-}
-
-.hero p{
-font-size:18px;
-color:#ddd;
-margin-bottom:30px;
-}
-
-.btn{
-background:#00bfff;
-padding:15px 35px;
-border-radius:40px;
-text-decoration:none;
-color:white;
-font-weight:bold;
-display:inline-block;
-transition:.3s;
-}
-
-.btn:hover{
-background:#0099cc;
-box-shadow:0 0 20px #00d4ff;
-}
-
-section{
-padding:50px 20px;
-}
-
-.card{
-background:#0d2348;
-padding:20px;
-margin:20px auto;
-max-width:400px;
-border-radius:15px;
-box-shadow:0 0 15px rgba(0,191,255,.3);
-}
-
-footer{
-    padding:20px;
-    background:#08192f;
-    color:#aaa;
+nav{
+    margin-top:20px;
 }
 
 nav a{
     color:white;
     text-decoration:none;
+    margin:0 15px;
     font-weight:bold;
+    transition:.3s;
 }
 
 nav a:hover{
     color:#00d4ff;
 }
 
+.hero{
+    padding:60px 20px;
+}
+
+.hero h2{
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#ccc;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:#00bfff;
+    color:white;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:40px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#0099cc;
+    box-shadow:0 0 20px #00d4ff;
+}
+
+section{
+    padding:50px 20px;
+}
+
+.card{
+    background:#0d2348;
+    max-width:450px;
+    margin:20px auto;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,191,255,.4);
+}
+
+footer{
+    background:#08192f;
+    padding:20px;
+    color:#aaa;
+}
 </style>
-    
-    
 
 </head>
-
 <body>
 
 <header>
-    <img src="IMG_20260726_213828.jpg" alt="EFootball Mania Logo" class="logo">
-    
+    <img src="logo.png" class="logo" alt="EFootball Mania Logo">
+
+    <h1>EFootball Mania</h1>
 
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="tournaments.html">Tournaments</a> |
-        <a href="#">Leaderboard</a> |
+        <a href="#">Home</a>
+        <a href="#">Tournaments</a>
+        <a href="#">Leaderboard</a>
         <a href="#">Contact</a>
     </nav>
 </header>
 
 <div class="hero">
-
-<a href="#" class="btn">Register Now</a>
+    <h2>Welcome to EFootball Mania</h2>
+    <p>The Ultimate eFootball Tournament Community</p>
+    <a href="#" class="btn">Join Tournament</a>
 </div>
 
 <section>
-<h2>🏆 Upcoming Tournament</h2>
+    <div class="card">
+        <h2>🏆 Upcoming Tournament</h2>
+        <p>Coming Soon...</p>
+    </div>
 
-<div class="card">
-<h3>EFootball Mania Cup</h3>
-<p>Coming Soon...</p>
-</div>
-</section>
-
-<section>
-<h2>👑 Leaderboard</h2>
-
-<div class="card">
-<p>Leaderboard will be available soon.</p>
-</div>
-
+    <div class="card">
+        <h2>👑 Leaderboard</h2>
+        <p>Top Players will appear here.</p>
+    </div>
 </section>
 
 <footer>
-© 2026 EFootball Mania
+    © 2026 EFootball Mania. All Rights Reserved.
 </footer>
 
 </body>
-    </html>
+</html>
