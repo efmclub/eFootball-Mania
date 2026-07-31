@@ -14,15 +14,16 @@
 }
 
 body{
-    background:#06142b;
+    background:linear-gradient(180deg,#06142b,#08192f,#0a2545);
     color:white;
     text-align:center;
 }
 
 header{
-    background:#0d2348;
+    background:#08192f;
     padding:20px;
-    box-shadow:0 0 15px #00bfff;
+    border-bottom:2px solid #00c3ff;
+    box-shadow:0 0 20px rgba(0,195,255,0.3);
 }
 
 .logo{
@@ -54,11 +55,13 @@ nav a:hover{
 }
 
 .hero{
-    padding:60px 20px;
+    padding:80px 20px;
 }
 
-.hero h2{
-    font-size:32px;
+.hero h1{
+    font-size:56px;
+    color:#00c3ff;
+    text-shadow:0 0 15px rgba(0,195,255,.8);
     margin-bottom:15px;
 }
 
@@ -67,14 +70,10 @@ nav a:hover{
     margin-bottom:30px;
 }
 
-.btn{
-    background:#00bfff;
-    color:white;
-    text-decoration:none;
-    padding:15px 35px;
-    border-radius:40px;
-    font-weight:bold;
-    transition:.3s;
+.btn:hover{
+    background:#0099cc;
+    transform:scale(1.05);
+    box-shadow:0 0 30px rgba(0,191,255,.9);
 }
 
 .btn:hover{
