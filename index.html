@@ -68,9 +68,11 @@ nav a:hover{
     animation:glow 2s ease-in-out infinite alternate;
 }
 
-.hero{
-    padding:120px 20px;
-    text-align:center;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 
     background:
     linear-gradient(rgba(6,20,43,0.75), rgba(6,20,43,0.75)),
@@ -81,16 +83,17 @@ nav a:hover{
     background-repeat:no-repeat;
 }
 
-.btn:hover{
-    background:#0099cc;
-    transform:scale(1.05);
-    box-shadow:0 0 30px rgba(0,191,255,.9);
-}
-
-.btn:hover{
-    background:#0099cc;
-    box-shadow:0 0 20px #00d4ff;
-}
+..btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 40px;
+    background:#00c3ff;
+    color:white;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 0 20px rgba(0,195,255,.6);
+    }
 
 section{
     padding:50px 20px;
